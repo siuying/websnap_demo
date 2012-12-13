@@ -1,0 +1,19 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    rack (1.4.1)
+    rack-protection (1.3.2)
+      rack
+    sinatra (1.3.3)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    tilt (1.3.3)
+    websnap (0.1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sinatra
+  websnap (= 0.1.5)
